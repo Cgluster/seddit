@@ -1,39 +1,29 @@
-.App {
+:root {
+  --color-background: rgb(96, 94, 94);
+  --color-background-secondary: rgb(184, 183, 182);
+  --color-foreground: rgb(227, 226, 226);
+  --color-branding: rgb(61, 90, 241);
+  --color-text-header: rgb(65, 64, 64);
+  --color-text-body: rgb(111, 111, 111);
+  --color-text-link: rgb(78, 195, 245);
+  --color-text-secondary: rgb(114, 114, 114);
+
+  --spacing-0: 4px;
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 36px;
+  --spacing-5: 64px;
+  --radius: 4px;
+  --radius-2: 8px;
+}
+
+html,
+body {
   text-align: center;
+  background: var(--color-background);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+p {
+  margin: 0;
 }
