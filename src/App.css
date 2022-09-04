@@ -16,6 +16,10 @@
   --spacing-5: 64px;
   --radius: 4px;
   --radius-2: 8px;
+
+  --color-arrowup: rgb(46, 188, 43);
+  --color-arrowdown: rgb(249, 39, 39);
+  --color-on-hover: rgb(0, 0, 2);
 }
 
 html,

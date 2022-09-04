@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './features/Header/Header';
+import Subreddits from './features/Subreddits/Subreddits';
 
 function App() {
   return (
@@ -8,10 +9,10 @@ function App() {
       <Header />
       {/* <main>
         <Home />
-      </main>
+      </main> */}
       <aside>
-        <SubReddits />
-      </aside> */}
+        <Subreddits />
+      </aside>
     </>
   );
 }
