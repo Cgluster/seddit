@@ -8,7 +8,7 @@
 
 .post-details {
     margin-top: var(--spacing-2);
-    border-top: 1px;
+    border-top: 1px solid;
     padding-top: var(--spacing-1);
     font-size: .85rem;
     display: flex;
@@ -18,6 +18,7 @@
 
 .post-details .author-username {
     font-weight: bold;
+    color: var(--color-branding);
 }
 
 .post-image-container {
@@ -38,6 +39,12 @@
 
 .post-votes-container {
     margin-right: var(--spacing-3);
+}
+
+.post-votes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .icon-action {

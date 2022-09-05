@@ -2,7 +2,7 @@ import React from "react";
 import moment from 'moment';
 import ReactMarkdown from 'react-markdown';
 import './Comment.css';
-import '../Avatar/Avatar';
+import Avatar from '../Avatar/Avatar';
 
 const Comment = (props) => {
     const { comment } = props;
